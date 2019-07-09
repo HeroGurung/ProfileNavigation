@@ -9,6 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".java_nav.weekly_testActivity"></activity>
+        <activity android:name=".java_nav.accountsActivity" />
+        <activity android:name=".java_nav.performanceActivity" />
+        <activity android:name=".java_nav.attendanceActivity" />
+        <activity android:name=".java_home.downloadsActivity" />
+        <activity android:name=".java_home.assignmentsActivity" />
+        <activity android:name=".java_home.trainingActivity" />
+        <activity android:name=".java_home.informationActivity" />
+        <activity android:name=".java_home.routineActivity" />
+        <activity android:name=".java_home.eventActivity" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
