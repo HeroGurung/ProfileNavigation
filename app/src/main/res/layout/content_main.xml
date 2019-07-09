@@ -31,6 +31,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:onClick="eventClick"
+                android:background="@drawable/ripple_effect"
                 android:orientation="vertical"
                 tools:ignore="UseCompoundDrawables">
 
@@ -67,6 +68,7 @@
                 android:gravity="center"
                 android:onClick="routineClick"
                 android:orientation="vertical"
+                android:background="@drawable/ripple_effect"
                 tools:ignore="UseCompoundDrawables">
 
                 <ImageView
@@ -111,6 +113,7 @@
                 android:gravity="center"
                 android:onClick="informationClick"
                 android:orientation="vertical"
+                android:background="@drawable/ripple_effect"
                 tools:ignore="UseCompoundDrawables">
 
                 <ImageView
@@ -147,6 +150,7 @@
                 android:gravity="center"
                 android:onClick="trainingClick"
                 android:orientation="vertical"
+                android:background="@drawable/ripple_effect"
                 tools:ignore="UseCompoundDrawables">
 
                 <ImageView
@@ -192,6 +196,7 @@
                 android:gravity="center"
                 android:onClick="assignmentClick"
                 android:orientation="vertical"
+                android:background="@drawable/ripple_effect"
                 tools:ignore="UseCompoundDrawables">
 
                 <ImageView
@@ -228,6 +233,7 @@
                 android:gravity="center"
                 android:onClick="downloadClick"
                 android:orientation="vertical"
+                android:background="@drawable/ripple_effect"
                 tools:ignore="UseCompoundDrawables">
 
                 <ImageView
