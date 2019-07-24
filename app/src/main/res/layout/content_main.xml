@@ -35,6 +35,7 @@
                 android:orientation="vertical"
                 tools:ignore="UseCompoundDrawables">
 
+
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -70,6 +71,7 @@
                 android:orientation="vertical"
                 android:background="@drawable/ripple_effect"
                 tools:ignore="UseCompoundDrawables">
+
 
                 <ImageView
                     android:layout_width="100dp"
@@ -116,6 +118,7 @@
                 android:background="@drawable/ripple_effect"
                 tools:ignore="UseCompoundDrawables">
 
+
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -152,6 +155,7 @@
                 android:orientation="vertical"
                 android:background="@drawable/ripple_effect"
                 tools:ignore="UseCompoundDrawables">
+
 
                 <ImageView
                     android:layout_width="100dp"
@@ -199,6 +203,7 @@
                 android:background="@drawable/ripple_effect"
                 tools:ignore="UseCompoundDrawables">
 
+
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -235,6 +240,7 @@
                 android:orientation="vertical"
                 android:background="@drawable/ripple_effect"
                 tools:ignore="UseCompoundDrawables">
+
 
                 <ImageView
                     android:layout_width="100dp"

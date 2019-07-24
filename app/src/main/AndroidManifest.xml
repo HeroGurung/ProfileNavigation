@@ -13,12 +13,18 @@
         <activity android:name=".java_nav.accountsActivity" />
         <activity android:name=".java_nav.performanceActivity" />
         <activity android:name=".java_nav.attendanceActivity" />
-        <activity android:name=".java_home.downloadsActivity" />
-        <activity android:name=".java_home.assignmentsActivity" />
-        <activity android:name=".java_home.trainingActivity" />
-        <activity android:name=".java_home.informationActivity" />
-        <activity android:name=".java_home.routineActivity" />
-        <activity android:name=".java_home.eventActivity" />
+        <activity android:name=".java_home.downloadsActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".java_home.assignmentsActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".java_home.trainingActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".java_home.informationActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".java_home.routineActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".java_home.eventActivity"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"

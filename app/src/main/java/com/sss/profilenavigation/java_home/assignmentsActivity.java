@@ -11,5 +11,7 @@ public class assignmentsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_assignments);
+        getSupportActionBar().setTitle("Assignments");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

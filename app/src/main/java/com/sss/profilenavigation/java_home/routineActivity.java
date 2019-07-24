@@ -11,5 +11,8 @@ public class routineActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_routine);
+
+        getSupportActionBar().setTitle("Routine");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

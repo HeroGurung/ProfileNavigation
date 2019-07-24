@@ -11,5 +11,8 @@ public class trainingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_training);
+
+        getSupportActionBar().setTitle("Training");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

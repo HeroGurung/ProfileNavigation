@@ -11,5 +11,8 @@ public class informationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_information);
+
+        getSupportActionBar().setTitle("Information");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
